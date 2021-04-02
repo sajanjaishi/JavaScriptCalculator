@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+  <script src="calc.js"></script><h1>Simple Calculator Using JavaScript</h1>
+    <div class="container">
+      <div class="header">Calculator</div>
+      <input type="text" class="result" id="res">
+      <div class="first-row">
+        <input onclick="resfunc()" type="reset" name="a" value="clr" class="global big1 red" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="%" class="global" id=myBtn>
+      </div>
+      <div class="second-row">
+        <input onclick="myFunction1(this)" type="button" name="a" value="7" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="8" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="9" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="/" class="global" id=myBtn>
+      </div>
+      <div class="third-row">
+        <input onclick="myFunction1(this)" type="button" name="a" value="4" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="5" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="6" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="*" class="global" id=myBtn>
+      </div>
+      <div class="fourth-row">
+        <input onclick="myFunction1(this)" type="button" name="a" value="1" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="2" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="3" class="global" id=myBtn>
+        <input onclick="myFunction1(this)" type="button" name="a" value="-" class="global" id=myBtn>
+      </div>
+      <div class="conflict">
+        <div class="left">
+          <input onclick="myFunction1(this)" type="button" name="a" value="0" class="big" id=myBtn>
+          <input onclick="myFunction1(this)" type="button" name="a" value="." class=" small" id=myBtn>
+          <input onclick="delfunc()" type="button" name="a" value="Del" class=" red small white-text top-margin">
+          <input onclick="solve()" type="button" name="a" value="=" class=" green white-text big top-margin">
+        </div>
+        <div class="right">
+          <input onclick="myFunction1(this)" type="button" name="" value="+" class="global grey plus">
+        </div>
+      </div>
+    </div>
+    <div id="test">
+      
+    </div>
+    </body>
+</html>
